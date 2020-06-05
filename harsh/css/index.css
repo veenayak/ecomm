@@ -1,0 +1,548 @@
+		body{
+			font-family: 'Titillium Web', sans-serif;
+			position: relative;
+		    padding-right: 0!important;			
+		}
+		/*nav*/
+		nav{
+			width: 100%;
+		    z-index: 99;
+		    margin: auto;
+		}
+		main{
+			z-index: 9999;
+		    background: #fff;
+		    position: sticky;
+		    top: 0;
+		    box-shadow: 0px 2px 10px #a2a2a2;	
+		}
+		.bg-dark{
+			background: transparent!important;
+		}
+		.navbar-dark .navbar-brand{
+			padding-left: 0px;
+		}
+		h1,h2,h3,h4,h5,h6{
+			color: #97a9c8;
+		}
+		#navicon{
+			position: absolute;
+			right: 15px;
+			top: 15px;
+		}
+		.navbar-dark .navbar-nav .nav-link{
+			letter-spacing: 1px;	
+		}
+		nav .dropdown{
+			display: inline-block;
+		}
+		.dropdown-menu{
+			box-shadow: 0px 2px 10px #e4e4e4;
+		}
+		.dropdown ul{
+		    border: 0;
+		}
+		button{
+			background: #97a9c8;
+	        padding: 8px 11px!important;
+		    color: #fff;
+		    border: 0px;
+		    outline: 0!important;
+		    text-transform: uppercase;
+		    border-radius: 10px;
+		}
+		nav img{
+			width: auto!important;
+			height: 45px!important;
+			min-height: auto!important;
+		}
+		a{
+			text-transform: uppercase;
+			color: #7a88a0;
+			padding: 5px 10px;
+		    outline: 0;
+		    text-decoration: none!important;
+		    transition: all 0.3s;
+		}
+		a:hover{
+			letter-spacing: 3px!important; 
+			transition: all 0.5s;
+			color: black;
+		}
+		#myModal2 .modal-footer button:first-child{
+			float: left;
+		}
+		.modal-footer button:first-child{
+			background: transparent;
+			border: 1px solid #dedede;
+			color: #3e4550!important;
+		}
+		.wish:hover,.search_button:hover,.modal-footer button:first-child:hover{
+			background: #efefef;
+			cursor: pointer;
+		}
+		a:focus{
+
+		}
+		button:hover{
+			background: #7a88a0;
+			transition: all 0.5s;
+		}
+		p{
+			margin: 0;
+			line-height: 1.68rem;
+		}
+		p, label, button{
+			font-size: 14px;
+			letter-spacing: 1px;
+		}
+
+		.row{
+			padding: 20px;
+		}
+
+		main .row{
+			padding: 0px;
+		}
+		section{
+			padding: 50px!important;
+			text-align: center;
+			min-height: 100vh;
+		    background: linear-gradient(#fdfdfd,#fdfdfd,#fff,#fff,#fff);
+			border-bottom: 1px solid #f3f0f0;
+		}
+/*		section h2{
+			margin-bottom: 1rem;
+		}*/
+		section:nth-chclearild(even){
+			background: #fbfbfb;
+		}
+		.dropdown-item{
+			padding: 10px 15px;
+
+		}
+		.dropdown-item:hover{
+			background: #96a9c8;
+			color: #fff;
+		}
+		/*RSEC1,SEC3 RECOM*/				
+		.recom div{
+			position: relative;
+		}
+		.recom>div:hover button{
+			display: inline-block;
+		}
+		.recom img:hover{
+			filter: brightness(0.5);
+			transition: all 0.5s;
+		}
+		#search_button{
+			background: #fff;
+			color: #3e4550!important;
+		}	
+		#cart{
+		    background: #fff;
+		    position: fixed;
+		    right: 0;
+		    top: 0;
+		    padding: 0px;
+	        box-shadow: 0px 0px 5px #e6e6e6;
+		    height: 100vh;
+		    width: 0px;
+		    z-index: 99999;
+		    padding: 10px;
+		    display: none;
+		}
+		#cart div{
+			width: 100%;
+			position: absolute;
+			bottom: 20px;
+			left: 0px;
+			padding: 0px 20px;
+		}
+		#cart button{
+			width: 100%;
+			border-radius: 5px!important;
+		}
+		#cart i,.modal .close{
+			float: right;
+			color: #3e4550;
+		}
+		#footer_contact p{
+			color: #fff;
+		    padding: 30px;
+		    margin: 0;
+		    background: #2f2f3a;
+		    text-align: center;
+		}
+		footer{
+			background-color: #353542!important;
+			padding: 30px 35px!important;
+			color: #fff;
+			overflow: hidden;
+		}
+		#up{
+			position: fixed;
+			bottom: 25px;
+			right: 25px;
+			z-index: 9999;
+			opacity: 0;
+		}
+		.pagination+span{
+		    color: #97a9c8;
+		    cursor: pointer;
+		    font-size: 20px;
+		    float: left;
+		    width: 100%;
+		    margin-top: 30px;
+		    clear: both;
+		}
+		.pagination+span i{
+			width: 100%;
+		}
+		.pagination+span:hover{
+			color: #7a88a0;
+			transition: all 0.5s;
+		}
+		.form-control{
+			border: 1px solid #e8e8e8;
+		}
+		footer>div{
+			max-width: 1220px;
+			margin: auto;
+		}
+		footer>div>div:first-child{
+			text-align: center;
+		}
+		#last1{
+			width: 60%;
+			float: left;
+			padding: 40px;
+		}
+		#last1 div{
+			width: 33.33%;			
+			float: left;
+		}
+		#last1 a{
+			width: 100%;
+			display: inline-block;
+			text-transform: capitalize;
+		}
+		#last2{
+			float: right;
+			width: 40%;
+			margin-top: 15px;
+			padding: 40px;
+		}
+		#last1 h5{
+			margin-top: 15px;
+			padding: 10px;
+			margin-bottom: 0;
+		}
+		#navicon input{
+			width: 200px;
+			float: left;
+			border-radius: 10px 0 0 10px;
+			border-right: 0;
+		}
+		#navicon input+button{
+		    margin-right: 5px;
+		    border-radius: 0 10px 10px 0;
+		    border: .5px solid #e8e8e8;
+		    border-left: 0;
+		}
+		.close{
+			color: #3e4550;
+			opacity: 1;
+		}
+		.close:hover{
+			background: transparent;
+		}
+		.full1{
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    z-index: 99;
+		    height: 71px;
+			border-radius: 0;
+			display: inline-block!important;
+			border: 0;
+		}
+		.full2{
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		    z-index: 99;
+		    height: 71px;
+			border-radius: 0!important;
+			margin-right: 0!important;
+			border: 0;
+		}
+		#search_background{
+			display: none;
+		    position: fixed;
+		    height: 100vh;
+		    width: 100%;
+		    left: 0;
+		    background: rgb(0,0,0,0.2);
+		    top: 0;
+		}
+		#myModal,#myModal2{
+			padding-right: 0!important;
+			z-index: 999999999;
+		}
+		#myModal2>div{
+			top: 10%;
+		    max-width: 600px;
+		    margin-top: 15px;
+		}
+		#myModal>div{
+		    top: 10%;
+		    max-width: 400px;
+		    margin-top: 15px;
+		}
+		#cost{
+		    float: right;
+		    text-align: right;
+		    font-size: 20px;
+		    font-weight: bold;
+		}
+		#rating{
+		    color: #666;
+		}
+		#myModal2 .modal-footer{
+			text-align: right;
+			display: inline-block;
+		}
+		#myModal2 .modal-footer .wish,#myModal2 .modal-footer .cart{
+			float: none;
+		}
+		#myModal2 input[type="radio"]{
+			width: 20px;
+			float: left;
+			margin-right: 5px;
+		}
+		#myModal2 label{
+			line-height: 2.5;
+			float: left;
+			margin-right: 10px;
+		}
+		#img_div{
+		    float: left;
+		    width: 30%;
+		    padding-left: 10px;
+		}
+		#con_div{
+			width: 70%;
+			float: left;
+		    padding: 0 10px;			
+		}
+		#con_div+div{
+			float: left;
+			padding: 0 10px;
+			margin: 0;
+		}
+		#color{
+	        width: 30px;
+		    height: 30px;
+		    display: inline-block;
+		    border: 4px solid #fff;
+		    box-shadow: 0px 0px 2px #9e9999;
+		    border-radius: 5px;
+		}
+		#desc_div{
+			padding: 10px;
+			float: right; 
+		}
+		#img_div img{
+			width: 100%;
+			border-radius: 20px;
+		}
+		footer #last1 a{
+			color: #fff;
+		}
+		footer a:hover{
+			color: #fff;
+		}
+		.wish{
+		    float: left;	    
+		    border-radius: 10px;
+		    clear: both;
+		    color: #3e4550;
+		    border: 1px solid #dedede;
+		    padding: 5px 10px;
+		    display: inline-block;
+		}
+		.wish:hover{
+		    background: #efefef;
+		}
+		#search_button+.dropdown{
+			margin-right: 2px;
+		}
+		@media only screen and (max-width: 1220px){
+			section{
+				padding: 20px 15px!important;
+			}
+			.secd>div{
+				width: 100%;
+			}
+			.secd {
+				position: relative;
+			}
+			.secd>div:first-child{
+		        width: 80%;
+		        margin: auto;
+				margin-left: 0;
+			    text-align: left;
+			    padding-left: 5px;
+			}
+			.sec1>div:first-child>div:first-child button{
+				float: right;
+			}
+			.recom{
+			    width: 100%;
+			    float: left;
+			    padding: 20px 0px 30px 0px;
+			}
+			.secd>button{
+				width: 200px;
+				float: right;
+			}
+		}
+		@media only screen and (max-width:768px){
+			.dropdown-item{
+				color: #7988a0;
+			}
+			.recom+div{
+				width: 100%;
+			}
+			.recom{
+				margin: 0!important;
+			}
+			main .navbar-nav .dropdown-menu{
+				box-shadow: 0 0 0;
+			    background: #f2f6ff;
+			    border: 0;
+			    color: black;
+			}
+			.navbar-dark .navbar-nav .nav-link{
+	            border-radius: 5px;
+			    border: 1px solid #fff;
+			    color: #7988a0;
+			    font-size: 14px;
+			    padding: 12px 15px;
+			    text-transform: uppercase;
+			    background: #e9edf5;
+			}
+			.navbar-dark .navbar-nav .nav-link:hover{
+				background: #7a88a0;
+				color: #fff;
+			}
+			.pagination{
+				float: right;
+			}
+			footer>div:first-child{
+				text-align: left;
+			}
+			#last1{
+				width: 100%;
+				padding: 0px;
+			}
+			#last1 div{
+				width: 100%;			
+				float: left;
+			}
+			#last1 a{
+				width: 100%;
+				display: inline-block;
+				text-transform: capitalize;
+			}
+			#last2{
+				float: right;
+				width: 100%;
+				margin-top: 15px;
+				padding: 10px;
+			}
+			footer{
+				padding: 20px!important;
+			}
+			#bag{
+				position: fixed;
+				bottom: 25px;
+				left: 25px;
+			}
+			#navicon{
+				width: 50%;
+				float: right;
+				position: static;
+				text-align: right;				
+			}
+			#navicon input+button{
+				margin-right: 2px;
+				border-radius: 10px;
+				border: 0;
+			} 
+			#navicon input{
+				display: none;
+			}
+			#con_div+div{
+				float: left;
+				padding: 0 10px;
+				margin: 0;
+				width: 100%;
+				clear: both;
+			}
+			#info{
+				font-weight: bold;
+				float: left;
+				padding: 0 10px;
+				width: 100%;
+				clear: both;
+			}
+			footer{
+				padding-bottom: 70px!important;
+			}
+		}
+		@media only screen and (min-width:768px){
+			.two li{
+				line-height: 1;
+				margin-left: 10px;
+			}
+			#bag+button{
+				display: none;
+			}
+			.recom+div{
+				width: 80%;
+				margin: auto;
+			}
+			.recom img{
+				padding: 0px 5px;
+				width: 100%;
+				border-radius: 15px;
+				object-fit: cover
+			}
+			.navbar-dark .navbar-nav .nav-link{			
+			    color: #464b54!important;
+			    font-size: 14px;
+			    background: transparent;
+			    border: 0;
+			    text-transform: uppercase;
+			}
+			.navbar-dark .navbar-nav .nav-link:hover{
+				background: transparent;
+			}
+			.pagination{
+				display: none;
+			}
+		}
+		@media only screen and (min-width: 1220px){
+			.sec1>div:first-child>div:first-child{
+		        width: 80%;
+		        margin: auto;
+			    position: relative;
+			    text-align: center;
+			}	
+			.sec1>div:first-child>div:first-child button{
+				float: right;
+			}
+		}
